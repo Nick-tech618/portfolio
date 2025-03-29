@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">DevPortfolio</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1> <span>DOMINIC KARIUKI MUNDIA</span></h1>
+                <p>A passionate Front-End Web Developer creating modern, responsive, and user-friendly websites.</p>
+                <a href="#contact" class="cta">Hire Me</a>
+            </div>
+            <div class="hero-image">
+                <img src="me.jpg" alt="Your Picture">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="web.jpg" alt="Web Development">
+            </div>
+            <div class="about-text">
+                <p>I am a front-end web developer with a passion for creating beautiful and functional websites. I specialize in HTML, CSS, JavaScript, and modern frameworks like React. I love turning ideas into reality through clean and efficient code.</p>
+                <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying a good cup of coffee.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <i class="fab fa-html5"></i>
+                <h3>HTML</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-react"></i>
+                <h3>React</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-git"></i>
+                <h3>Git</h3>
+            </div>
+            <div class="skill">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Responsive Design</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project">
+                <img height="200px" src="p1.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>A responsive landing page built with HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project">
+                <img height="200px" src="p2.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>An e-commerce website with React and Firebase integration.</p>
+            </div>
+            <div class="project">
+                <img height="200px" src="p3.jpg" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>A portfolio website showcasing my skills and projects.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/dominic-kariuki-04b93a300"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Nick-tech618"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2024 nick. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
